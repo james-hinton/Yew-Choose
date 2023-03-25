@@ -1,10 +1,14 @@
 # Yew Choose
-Yew Choose is a React-based website for a wedding celebrant, designed to showcase their services and portfolio in a beautiful and engaging way. The website features a responsive layout, a hero section with a video background, a portfolio section with a customizable image gallery, and a call-to-action section with a booking form.
+Yew Choose is a React-based website for a wedding celebrant, designed to showcase their services and portfolio in a beautiful and engaging way. The website features a responsive layout, a hero section with a video background, a portfolio section with a customizable image gallery, and a call-to-action section with a booking form. Created for my Mum's wedding celebrant business, Yew Choose.
 
 ## Technologies
 React
 SCSS
 React Image Gallery
+
+## Screenshots
+<!-- docs/home.png -->
+![Home](docs/home.png)
 
 
 ## Usage
