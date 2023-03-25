@@ -171,6 +171,16 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+/* alex brush */
+@font-face {
+  font-family: 'Alex Brush';
+  font-style: normal;
+  font-weight: 400;
+  // its in public/AlexBrush-Regular.ttf
+  src: local('Alex Brush'), local('AlexBrush-Regular'),
+    url(../public/AlexBrush-Regular.ttf) format('truetype');
+  
+}
 
 body {
   margin: 0;
@@ -186,7 +196,7 @@ code {
 }
 
 .App {
-  min-height: 100vh;
+  min-height: 30vh;
 }
 
 .container {
@@ -230,4 +240,11 @@ code {
 
 .floating-button:hover {
   background-color: #f0f0f0;
+}
+
+@media (max-width: 1050px) {
+  .container {
+    width: 90%;
+    padding-top: 1em;
+  }
 }

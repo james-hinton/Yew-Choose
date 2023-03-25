@@ -1,17 +1,25 @@
-import LazyHero from 'react-lazy-hero'
+import React, { useEffect, useState } from 'react';
+import './style.scss';
 
-function Hero ({ imageSrc, videoSrc, minHeight, children }) {
+function Hero({ imageSrc, videoSrc, height, children }) {
+
+
   return (
-    <LazyHero
-      imageSrc={imageSrc}
-      videoSrc={videoSrc}
-      isCentered={true}
-      isFixed={true}
-      minHeight={minHeight}
-    >
-      {children}
-    </LazyHero>
-  )
+    <div className="hero" style={{ height: height }}>
+      {videoSrc ? (
+        <video className="hero__video" autoPlay loop muted>
+          <source src={videoSrc} type="video/mp4" />
+        </video>
+      ) : (
+        <img
+          className="hero__image"
+          src={imageSrc}
+          alt="Hero background"
+        />
+      )}
+      <div className="hero__content">{children}</div>
+    </div>
+  );
 }
 
-export default Hero
+export default Hero;

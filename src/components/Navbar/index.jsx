@@ -44,6 +44,8 @@ const Navbar = () => {
           CONTACT
         </a>
       </div>
+
+      <img src="tree.jpg" alt="tree" className="navbar__tree" />
     </div>
   )
 }

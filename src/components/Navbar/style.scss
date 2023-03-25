@@ -6,6 +6,8 @@
   flex-direction: column;
   padding: 1.5rem 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
 
   &__logo {
     height: 100px;
@@ -20,12 +22,18 @@
     width: 50%;
     max-width: 600px;
     min-width: 400px;
+    background: #fff;
+    border-radius: 1em;
+    padding: 0.5em 3em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
   }
 
   &__link {
     text-decoration: none;
     color: #000;
     transition: all 0.1s ease-in-out;
+    cursor: pointer;
 
     &:hover {
       color: #f26a2e;
@@ -34,5 +42,15 @@
 
   &__link--active {
     font-weight: bold;
+  }
+
+  &__tree {
+    position: absolute;
+    opacity: 0.2;
+    top: -13%;
+    left: 34%;
+    user-select: none;
+    pointer-events: none;
+    z-index: -1;
   }
 }
