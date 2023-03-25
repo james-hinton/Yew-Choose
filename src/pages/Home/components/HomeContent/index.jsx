@@ -27,15 +27,27 @@ const HomeContent = () => {
             <strong>unique and personalised ceremonies</strong> for all
             occasions. <br />
             <br />
-            With a wealth of experience in organising and delivering a wide
-            range of events, Nicola's background in the hospitality and event
-            management industry ensures that your special day will be handled
-            with the utmost care and attention to detail. <br />
-            <br />
             <strong>Yew Choose</strong> offers a range of services, including
             weddings, vow renewals, naming ceremonies, and celebrations of life.
             Nicola believes in the importance of crafting a ceremony that truly
             reflects the personalities and values of the individuals involved.{' '}
+            <br />
+            <br />
+            In addition to her expertise as a celebrant, Nicola can also provide
+            assistance with selecting the{' '}
+            <strong>
+              perfect venue, coordinating with other vendors, and even
+              recommending local accommodations for your guests
+            </strong>
+            . Her extensive knowledge of Hampshire and the surrounding areas
+            ensures that your special day will be truly one-of-a-kind.
+            <br />
+            <br />
+            She understands the significance of incorporating cultural
+            traditions and <strong> family customs into your ceremony</strong>,
+            ensuring that every element is meaningful and tailored to your
+            desires. Nicola is dedicated to making each ceremony a beautiful
+            representation of the love and commitment shared by those involved.
             <br />
             <br />
             As a proud member of the{' '}
