@@ -179,7 +179,6 @@
   // its in public/AlexBrush-Regular.ttf
   src: local('Alex Brush'), local('AlexBrush-Regular'),
     url(../public/AlexBrush-Regular.ttf) format('truetype');
-  
 }
 
 body {
@@ -222,7 +221,6 @@ code {
   display: flex;
   flex-direction: column;
 }
-
 
 .floating-button {
   border-radius: 50%;

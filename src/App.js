@@ -17,10 +17,8 @@ function App () {
           <Route exact path='/' element={<Home />} />
         </Routes>
 
-
         {/* Footer */}
         <Footer />
-
 
         {/* Floating CTA */}
         <div className='floating-buttons'>
