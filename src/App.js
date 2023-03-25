@@ -9,9 +9,11 @@ function App () {
       <Navbar />
 
       <div className='App transparentbg'>
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-        </Routes>
+        <div className='container'>
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+          </Routes>
+        </div>
       </div>
     </>
   )
