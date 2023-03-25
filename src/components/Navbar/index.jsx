@@ -1,11 +1,10 @@
 import './style.scss'
 
 const Navbar = () => {
-
   return (
-    <>
-      Navbar
-    </>
+    <div className='navbar'>
+      <img src='logo.png' alt='logo' className='logo' />
+    </div>
   )
 }
 
